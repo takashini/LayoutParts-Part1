@@ -1,1 +1,37 @@
 @charset "UTF-8";
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+th {
+  border: 1px solid #000000;
+  width: 16.666%;
+  padding: 10px;
+  line-height: 26px;
+  font-size: 18px;
+  background-color: #319c4a;
+}
+
+td {
+  border: 1px solid #000000;
+  width: 16.666%;
+  padding: 10px;
+  line-height: 22px;
+  text-align: center;
+  font-size: 16px;
+}
+
+tr:nth-child(even)>td {
+  background-color: #d5ffc7;
+}
+
+tr:nth-child(odd)>td {
+  background-color: #bcbcbc;
+}
+
+tr:last-child>th,tr:last-child>td {
+  border-top: 1px double rgb(255,255,255);
+}

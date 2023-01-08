@@ -1,2 +1,18 @@
 @charset "UTF-8";
-/* 回答はここから */
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+  float: left;
+  width: 200px;
+  margin: 30px;
+  outline: 10px solid #655;
+  border-radius: 13px;
+  box-shadow: 0 0 0 6px #655;
+  padding: 10px;
+  background-color: #d2b48c;
+}
